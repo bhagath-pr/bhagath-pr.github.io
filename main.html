@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novel-Nation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="login.html" class="blink">Register/Login</a>
+    </div>
+    <div class="header">Novel-Nation</div>
+    <div class="sub-header">Your ultimate destination for every literary adventure</div>
+    <div class="container">
+        <div class="content">
+            <h2>Popular Picks</h2>
+            <table>
+                <tr>
+                    <th>Sl No.</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                </tr>
+                <tr onclick="showDetails('Tomorrow, and Tomorrow, and Tomorrow','Gabrielle Zevin','<br><i>\'Tomorrow, and Tomorrow, and Tomorrow\' by Gabrielle Zevin is the story of Sadie and Samson, two friends united by a love of video games who turn it into a successful business, with the help of their friend Marx. The book follows the development of their relationship over the decades. <br><br>The couple first bond over a love of \'donkey kong\' in the games room of a hospital when they are young adults. Later, MIT computer student \(Sadie\) and Harvard maths student \(Samson Mazer\) bump into each other in a Boston train station, and this is the start of a creative partnership that blossoms over the years. But is there anything else blossoming?<\i>')">
+                    <td>1</td>
+                    <td class="book-title">Tomorrow, and Tomorrow, and Tomorrow</td>
+                    <td>Gabrielle Zevin</td>
+                </tr>
+                <tr onclick="showDetails('The Women', 'Kristin Hannah', '<br><i>In Kristin Hannah\'s The Women, Frankie McGrath is a young woman from a wealthy family who decides to enlist as a nurse in the Vietnam War after her older brother is killed in action.<br><br>In doing so, she leaves her sheltered and comfortable life in California to serve in a war-ravaged country working under dangerous conditions. When she returns, the atmosphere in America is hostile to veterans, dismissive of women\'s contributions in the war and she struggles to reassimilate.<br><br>In a story about patriotism, friendship, remembrance and defying expectations, The Women tells an often-overlooked story of the courageous women who served in Vietnam.</i>')">
+                    <td>2</td>
+                    <td class="book-title">The Women</td>
+                    <td>Kristin Hannah</td>
+                </tr>
+                <tr onclick="showDetails('The Fellowship of the Ring', 'John Ronald Reuel Tolkien', '<br><i>The Fellowship of the Ring follows Frodo Baggins, a hobbit who inherits the One Ring, a powerful artifact that must be destroyed to prevent the Dark Lord Sauron from conquering Middle-earth. Frodo and a group of allies, known as the Fellowship, embark on a perilous journey filled with danger, friendship, and sacrifice to save their world.</i>')">
+                    <td>3</td>
+                    <td class="book-title">The Fellowship of the Ring</td>
+                    <td>J. R. R. Tolkein</td>
+                </tr>
+                <tr onclick="showDetails('Fourth Wing', 'Rebecca Yarros', '<br><i>In Fourth Wing, Violet Sorrengail is a young woman who is forced by her mother, a military general, to give up her goal of becoming a scribe and to instead enroll to be trained as an elite dragon rider.<br><br>The training of dragon riders is brutal and competitive, with only a fraction of the cadets making it through the first year of their training. Their goal is to bond with a dragon so they can be bestowed with the powers that bond holds ... or to die trying.<br><br>Meanwhile, uprisings and attacks upon their kingdom and its borders have steadily increased and Violet\'s training will soon plunge her into a political and military landscape that is complex and potentially deadly.</i>')">
+                    <td>4</td>
+                    <td class="book-title">Fourth Wing</td>
+                    <td>Rebecca Yarros</td>
+                </tr>
+                <tr onclick="showDetails('The Heaven & Earth Grocery Store', 'James McBride', '<br><i>James McBride\'s The Heaven & Earth Grocery Store opens with the discovery of a skeleton in a well in a small town. This introduction to the Chicken Hill area of Pottstown, Pennsylvania, sets up a sense of mystery as the narrative jumps back nearly 50 years to explore the town, its secrets and its people.<br>Chicken Hill is a vibrant community of immigrants, Jewish and black people, resulting in a mix of characters with intertwined lives and shared histories. This novel tells their stories with affection, humor, and occasionally some level of vexation with the world when a deaf boy in town is left without a mother and the state looks to take him into their custody.<br>It\'s a story about people who are struggling and their ambitions, successes and disappointments. In this compassionate, life-affirming and often funny novel, McBride explores what it means to be in a community and to live in the margins of \'white\' American.</i>')">
+                    <td>5</td>
+                    <td class="book-title">The Heaven & Earth Grocery Store</td>
+                    <td>James McBride</td>
+                </tr>
+            </table>
+            <div id="book-details">Click on a book title to view details.</div>
+        </div>
+        <div class="sidebar">
+            <h3>News and Events</h3>
+            <h4>Library Cafeteria Renovated!</h4>
+            <p>Psst. Go check out the latest mouthwatering additions to the menu and the brand new espresso machine. Trust me, you'll never wanna leave ;)</p>
+            <h4>Mega Offers and Discounts!</h4>
+            <p>Join us for our 37th Annual Day on 27th of April, and be ready to be overwhelmed by the amazing deals and offers.</p>
+            <h3>ANNUAL DAY CELEBRATION COUNTDOWN</h3>
+            <div id="countdown">HH:MM:SS</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
